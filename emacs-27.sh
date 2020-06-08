@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # install emacs 27
-
+## update repositories list
+sudo apt update
 ## install dependencies
 
 sudo apt install -y autoconf automake autotools-dev bsd-mailx build-essential \
